@@ -7,7 +7,7 @@ export const Navbar = () => {
       {/* Navbar */}
       <nav className="py-10 custom-container">
         <Link href="/">
-          <span className="font-bold">Temisan Blog</span>
+          <span className="font-bold">Temisan&apos;s Blog</span>
         </Link>
       </nav>
     </>
