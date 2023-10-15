@@ -6,7 +6,7 @@ import { Navbar } from "./components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Temisan's Blog",
+  title: "Temisan  Omatsola Blog",
   description: "Here, I talk a bout a few things I'm interested in",
 };
 
