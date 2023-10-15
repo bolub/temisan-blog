@@ -12,7 +12,7 @@ export const ArticlePage = ({ post }: { post: BlogItem }) => {
       {/* back button */}
       <Link
         href="/"
-        className="flex gap-1 items-center mb-8 absolute left-8 lg:left-20"
+        className="flex gap-1 items-center mb-8 absolute left-8 lg:left-32"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export const ArticlePage = ({ post }: { post: BlogItem }) => {
       <header className="custom-container pt-20">
         <DateDisplay date={sys.createdAt} />
 
-        <h1 className="mt-4 text-3xl lg:text-4xl font-extrabold">
+        <h1 className="mt-4 text-2xl lg:text-4xl font-extrabold">
           {fields.title}
         </h1>
 

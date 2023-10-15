@@ -4,7 +4,7 @@ import { BlogItems } from "@/API";
 
 export const HomePage = ({ posts }: { posts: BlogItems }) => {
   return (
-    <main className="mt-24">
+    <main className="mt-10 md:mt-24">
       <header className="custom-container">
         <div className="border-b pb-12">
           <h1 className="font-bold text-4xl">Hi I&apos;m Temisan</h1>
