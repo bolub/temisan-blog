@@ -52,7 +52,9 @@ export const ArticlePage = ({ post }: { post: BlogItem }) => {
       </header>
 
       <section id="content" className="custom-container mt-12">
-        <div className="prose">{documentToReactComponents(fields.body)}</div>
+        <div className="prose max-w-none">
+          {documentToReactComponents(fields.body)}
+        </div>
       </section>
     </main>
   );
